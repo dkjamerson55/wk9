@@ -1,0 +1,72 @@
+<!---
+Create a new website using HTML and Bootstrap. The website must include the following:
+    * At least 2 pages.
+    * A Bootstrap navbar, table, and form.
+    * Bootstrap grid used throughout to format elements
+        * Elements should stack vertically when the window is small
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href= "\node_modules\bootstrap/dist/css/bootstrap.css"
+    />
+</head>
+<body class="container bg-secondary">
+    <!--Navbar section-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark rounded"
+        <a class="navbar-brand" href="Home.html"> 
+            <img
+                src="sixironphotos/sixironcustoms.png"
+                class="img-fluid rounded-3 mt-2 mb-2 ms-4 me-4"
+                alt="brand for six iron customs."
+                width="8%"
+            />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a> <!---add links inside of anchors-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About Our Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact Us</a>
+                </li>
+         </div>
+    </nav>
+    <!--Section 1 -->
+    <div class="container mt-5 mb-5 fs-5">
+        <img
+            src="sixironphotos/handplaning.jpg"
+            class="img-fluid rounded float-start me-3"
+            alt="Page banner"
+            width="30%"
+        />
+
+        <div class="container">
+            <div id="card-5" class="card bg-dark">
+
+                <p class="text-md-center text-float m-5 fs-3 fst-italic text-light">
+                    Custom crafted items using modern and traditional woodworking tools. Designs include anything from furniture and cabinetry to toys and props.
+                    Six Iron creates quality crafted wood items that will last a life time. <br> 
+                    Whether you need simple repairs or a new custom piece, you can count on me to complete your order promptly and at a competitive price. 
+                    Order your expertly built, custom handcrafted goods today.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
